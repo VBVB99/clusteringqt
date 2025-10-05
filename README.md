@@ -12,8 +12,8 @@
     E' un algoritmo di Machine Learning con apprendimento non supervisionato (senza etichette) 
     che effettua soft clustering.
     L’algoritmo cerca tutti i gruppi di punti che stanno dentro una certa soglia di distanza (radius), 
-    scegliendo poi quelli più popolaticonsiderendo prima un centroide e c
-    onfrontando i cluster candidati che hanno una distanza <= al dato radius dal centroide considerato.
+    scegliendo poi quelli più popolaticonsiderendo prima un centroide e 
+    confrontando i cluster candidati che hanno una distanza <= al dato radius dal centroide considerato.
     Non avviene una assegnazione casuale come nel k-means (anche esso algoritmo di clustering non supervisionato) 
     ma ha un costo computazionale più alto dato che valuta tutti i punti come possibili candidati.
     
